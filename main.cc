@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "Hello, World!" << endl;
+    int count = 10;
+    cout<<"count = "<<count++*++count<<endl;
+  
     return 0;
 }
