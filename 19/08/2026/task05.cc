@@ -20,7 +20,7 @@ class Distance                              //English Distance class
         void showdist() const               //display distance
         { cout << feet << "\'-" << inches << "\"" ; }
         
-        bool operator < (Distance) const  //compare distances
+        bool operator < (Distance d2) const  //compare distances
         {
             float bf1 = feet + inches/12;
             float bf2 = d2.feet + d2.inches/12;
